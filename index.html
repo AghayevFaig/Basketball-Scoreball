@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 id="home">HOME</h3>
+                <div id="homescore">
+                    <div id="homereqem">0</div>
+                </div>
+                <div id="addhomepoints">
+                    <button id="addhomepoints1" onclick="addhome1()">+1</button>
+                    <button id="addhomepoints2" onclick="addhome2()">+2</button>
+                    <button id="addhomepoints3" onclick="addhome3()">+3</button>
+                </div>
+                <div id="removehomepoints">
+                    <button id="removehomepoints1" onclick="removehome1()">-1</button>
+                    <button id="removehomepoints2" onclick="removehome2()">-2</button>
+                    <button id="removehomepoints3" onclick="removehome3()">-3</button>
+                </div>
+            </div>
+            <div>
+                <h3 id="guest">GUEST</h3>
+                <div id="guestscore">
+                    <div id="guestreqem">0</div>
+                </div>  
+            </div>
+            <div id="removeguestpoints">
+                    <button id="removeguestpoints1" onclick="removeguest1()">-1</button>
+                    <button id="removeguestpoints2" onclick="removeguest2()">-2</button>
+                    <button id="removeguestpoints3" onclick="removeguest3()">-3</button>
+                </div>
+                <div id="addguestpoints">
+                    <button id="addguestpoints1" onclick="addguest1()">+1</button>
+                    <button id="addguestpoints2" onclick="addguest2()">+2</button>
+                    <button id="addguestpoints3" onclick="addguest3()">+3</button>
+                </div>
+                <button id="restartgame" onclick="restart()">RESTART GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
